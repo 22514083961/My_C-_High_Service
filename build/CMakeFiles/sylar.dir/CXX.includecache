@@ -80,6 +80,34 @@ sylar/config.h
 iostream
 -
 
+/home/novaguoxun/Test/Log-1.1/sylar/config.h
+memory
+-
+string
+-
+sstream
+-
+boost/lexical_cast.hpp
+-
+yaml-cpp/yaml.h
+-
+sylar/log.h
+/home/novaguoxun/Test/Log-1.1/sylar/sylar/log.h
+iostream
+-
+vector
+-
+list
+-
+set
+-
+map
+-
+unordered_map
+-
+unordered_set
+-
+
 /home/novaguoxun/Test/Log-1.1/sylar/log.cc
 log.h
 /home/novaguoxun/Test/Log-1.1/sylar/log.h
@@ -93,6 +121,8 @@ time.h
 -
 string.h
 -
+config.h
+/home/novaguoxun/Test/Log-1.1/sylar/config.h
 
 /home/novaguoxun/Test/Log-1.1/sylar/log.h
 string

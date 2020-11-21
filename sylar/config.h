@@ -421,7 +421,11 @@ public:
     static void LoadFromYaml(const YAML::Node& root);
     static ConfigVarBase::ptr LookupBase(const std::string& name);
 private:
-    static ConfigVarMap s_datas;//static
+   
+        static ConfigVarMap & GetDatas(){
+             static ConfigVarMap s_datas;//static
+             return s_datas;
+        }//可以避免静态成员变量初始化不一致的问题
 };
 
 }

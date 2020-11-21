@@ -8,6 +8,8 @@ CMakeFiles/sylar.dir/sylar/config.cc.o
  .././sylar/util.h
  /home/novaguoxun/Test/Log-1.1/sylar/config.cc
 CMakeFiles/sylar.dir/sylar/log.cc.o
+ .././sylar/log.h
+ /home/novaguoxun/Test/Log-1.1/sylar/config.h
  /home/novaguoxun/Test/Log-1.1/sylar/log.cc
  /home/novaguoxun/Test/Log-1.1/sylar/log.h
  /home/novaguoxun/Test/Log-1.1/sylar/singleton.h

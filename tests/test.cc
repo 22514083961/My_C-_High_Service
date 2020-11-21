@@ -13,23 +13,17 @@ int main(int argc, char** argv) {
 
     logger->addAppender(file_appender);
 
-    //sylar::LogEvent::ptr event
-    //(new sylar::LogEvent(__FILE__, __LINE__, 0, sylar::GetThreadId(), sylar::GetFiberId(), time(0)));
+    //sylar::LogEvent::ptr event(new sylar::LogEvent(__FILE__, __LINE__, 0, sylar::GetThreadId(), sylar::GetFiberId(), time(0)));
     //event->getSS() << "hello sylar log";
     //logger->log(sylar::LogLevel::DEBUG, event);
-    std::cout << "hello sylar log Gxhh" << std::endl;
+    std::cout << "hello sylar log" << std::endl;
 
     SYLAR_LOG_INFO(logger) << "test macro";
     SYLAR_LOG_ERROR(logger) << "test macro error";
 
     SYLAR_LOG_FMT_ERROR(logger, "test macro fmt error %s", "aa");
 
-    auto mgr = sylar::LoggerMgr::GetInstance();
-    auto l=mgr->getLogger("xx");
-    mgr->setLogger("guoxunLog",file_appender);  
-    auto Mylog=sylar::LoggerMgr::GetInstance()->getLogger("guoxunLog");
-    Mylog->addAppender(sylar::LogAppender::ptr(new sylar::StdoutLogAppender));
+    auto l = sylar::LoggerMgr::GetInstance()->getLogger("xx");
     SYLAR_LOG_INFO(l) << "xxx";
-    SYLAR_LOG_ERROR(Mylog)<<"guoxunlog";
     return 0;
 }

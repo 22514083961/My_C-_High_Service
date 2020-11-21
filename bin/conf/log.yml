@@ -28,7 +28,7 @@ system:
         test1umap1: 10
         test2umap2: 20 
         test1umap3: 30
-        test2umap4: 40 
+        test2umap4: 40            
         test1umap5: 50
         test2umap6: 60 
 class:
