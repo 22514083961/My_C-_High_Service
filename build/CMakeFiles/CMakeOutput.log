@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/novaguoxun/Test/Log-1.1/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_783a5/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_783a5.dir/build.make CMakeFiles/cmTC_783a5.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_0a666/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0a666.dir/build.make CMakeFiles/cmTC_0a666.dir/build
 gmake[1]: 进入目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_783a5.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_783a5.dir/testCCompiler.c.o   -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_783a5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_783a5.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_783a5.dir/testCCompiler.c.o  -o cmTC_783a5 
+Building C object CMakeFiles/cmTC_0a666.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0a666.dir/testCCompiler.c.o   -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0a666
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a666.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0a666.dir/testCCompiler.c.o  -o cmTC_0a666 
 gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_81c80/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_81c80.dir/build.make CMakeFiles/cmTC_81c80.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_5921b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5921b.dir/build.make CMakeFiles/cmTC_5921b.dir/build
 gmake[1]: 进入目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_81c80.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_81c80.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_81c80
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81c80.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_81c80.dir/CMakeCCompilerABI.c.o  -o cmTC_81c80 
+Building C object CMakeFiles/cmTC_5921b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5921b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_5921b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5921b.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_5921b.dir/CMakeCCompilerABI.c.o  -o cmTC_5921b 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
@@ -62,9 +62,9 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (Ubuntu 10.2.0-13ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_81c80' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRCGGb7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_81c80 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_81c80.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_81c80' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5921b' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cct77GUw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5921b /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_5921b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5921b' '-mtune=generic' '-march=x86-64'
 gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
 
 
@@ -72,14 +72,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_81c80/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_81c80.dir/build.make CMakeFiles/cmTC_81c80.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_5921b/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_5921b.dir/build.make CMakeFiles/cmTC_5921b.dir/build]
   ignore line: [gmake[1]: 进入目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building C object CMakeFiles/cmTC_81c80.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_81c80.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_81c80]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81c80.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_81c80.dir/CMakeCCompilerABI.c.o  -o cmTC_81c80 ]
+  ignore line: [Building C object CMakeFiles/cmTC_5921b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_5921b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_5921b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5921b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_5921b.dir/CMakeCCompilerABI.c.o  -o cmTC_5921b ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
@@ -92,13 +92,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 10.2.0 (Ubuntu 10.2.0-13ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_81c80' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRCGGb7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_81c80 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_81c80.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5921b' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cct77GUw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5921b /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_5921b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccRCGGb7.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cct77GUw.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -117,7 +117,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_81c80] ==> ignore
+    arg [cmTC_5921b] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> ignore
@@ -129,7 +129,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
-    arg [CMakeFiles/cmTC_81c80.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_5921b.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -161,14 +161,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_4823f/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_4823f.dir/build.make CMakeFiles/cmTC_4823f.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_4e3ea/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4e3ea.dir/build.make CMakeFiles/cmTC_4e3ea.dir/build
 gmake[1]: 进入目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_4823f.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_4823f.dir/feature_tests.c.o   -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4823f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4823f.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4823f.dir/feature_tests.c.o  -o cmTC_4823f 
+Building C object CMakeFiles/cmTC_4e3ea.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_4e3ea.dir/feature_tests.c.o   -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4e3ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e3ea.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4e3ea.dir/feature_tests.c.o  -o cmTC_4e3ea 
 gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
 
 
@@ -181,14 +181,14 @@ gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_2d579/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_2d579.dir/build.make CMakeFiles/cmTC_2d579.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_1302f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1302f.dir/build.make CMakeFiles/cmTC_1302f.dir/build
 gmake[1]: 进入目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_2d579.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_2d579.dir/feature_tests.c.o   -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2d579
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d579.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2d579.dir/feature_tests.c.o  -o cmTC_2d579 
+Building C object CMakeFiles/cmTC_1302f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_1302f.dir/feature_tests.c.o   -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1302f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1302f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1302f.dir/feature_tests.c.o  -o cmTC_1302f 
 gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
 
 
@@ -201,14 +201,14 @@ gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_6ef9d/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_6ef9d.dir/build.make CMakeFiles/cmTC_6ef9d.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_7d6d9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7d6d9.dir/build.make CMakeFiles/cmTC_7d6d9.dir/build
 gmake[1]: 进入目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_6ef9d.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_6ef9d.dir/feature_tests.c.o   -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6ef9d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ef9d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6ef9d.dir/feature_tests.c.o  -o cmTC_6ef9d 
+Building C object CMakeFiles/cmTC_7d6d9.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_7d6d9.dir/feature_tests.c.o   -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7d6d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d6d9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7d6d9.dir/feature_tests.c.o  -o cmTC_7d6d9 
 gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
 
 
@@ -219,28 +219,28 @@ gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_0a267/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_0a267.dir/build.make CMakeFiles/cmTC_0a267.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_53187/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_53187.dir/build.make CMakeFiles/cmTC_53187.dir/build
 gmake[1]: 进入目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_0a267.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_0a267.dir/testCXXCompiler.cxx.o -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_0a267
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a267.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0a267.dir/testCXXCompiler.cxx.o  -o cmTC_0a267 
+Building CXX object CMakeFiles/cmTC_53187.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_53187.dir/testCXXCompiler.cxx.o -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_53187
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53187.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_53187.dir/testCXXCompiler.cxx.o  -o cmTC_53187 
 gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_26d51/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_26d51.dir/build.make CMakeFiles/cmTC_26d51.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_d46b0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d46b0.dir/build.make CMakeFiles/cmTC_d46b0.dir/build
 gmake[1]: 进入目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_26d51.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_26d51.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_26d51
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26d51.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_26d51.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_26d51 
+Building CXX object CMakeFiles/cmTC_d46b0.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_d46b0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d46b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d46b0.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_d46b0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d46b0 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
@@ -253,9 +253,9 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (Ubuntu 10.2.0-13ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_26d51' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9Kv4e2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_26d51 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_26d51.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_26d51' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d46b0' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsCDust.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d46b0 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_d46b0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d46b0' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
 
 
@@ -263,14 +263,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_26d51/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_26d51.dir/build.make CMakeFiles/cmTC_26d51.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d46b0/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d46b0.dir/build.make CMakeFiles/cmTC_d46b0.dir/build]
   ignore line: [gmake[1]: 进入目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building CXX object CMakeFiles/cmTC_26d51.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_26d51.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_26d51]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26d51.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_26d51.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_26d51 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_d46b0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_d46b0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_d46b0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d46b0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_d46b0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d46b0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
@@ -283,13 +283,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 10.2.0 (Ubuntu 10.2.0-13ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_26d51' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9Kv4e2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_26d51 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_26d51.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d46b0' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsCDust.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d46b0 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_d46b0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc9Kv4e2.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccsCDust.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -308,7 +308,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_26d51] ==> ignore
+    arg [cmTC_d46b0] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> ignore
@@ -320,7 +320,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
-    arg [CMakeFiles/cmTC_26d51.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_d46b0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -348,14 +348,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_cf1a3/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_cf1a3.dir/build.make CMakeFiles/cmTC_cf1a3.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_3f0ef/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3f0ef.dir/build.make CMakeFiles/cmTC_3f0ef.dir/build
 gmake[1]: 进入目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_cf1a3.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_cf1a3.dir/feature_tests.cxx.o -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cf1a3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf1a3.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_cf1a3.dir/feature_tests.cxx.o  -o cmTC_cf1a3 
+Building CXX object CMakeFiles/cmTC_3f0ef.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_3f0ef.dir/feature_tests.cxx.o -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3f0ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f0ef.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_3f0ef.dir/feature_tests.cxx.o  -o cmTC_3f0ef 
 gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
 
 
@@ -421,14 +421,14 @@ gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_cddd5/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_cddd5.dir/build.make CMakeFiles/cmTC_cddd5.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_6584f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6584f.dir/build.make CMakeFiles/cmTC_6584f.dir/build
 gmake[1]: 进入目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_cddd5.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_cddd5.dir/feature_tests.cxx.o -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cddd5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cddd5.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_cddd5.dir/feature_tests.cxx.o  -o cmTC_cddd5 
+Building CXX object CMakeFiles/cmTC_6584f.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_6584f.dir/feature_tests.cxx.o -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6584f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6584f.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6584f.dir/feature_tests.cxx.o  -o cmTC_6584f 
 gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
 
 
@@ -494,14 +494,14 @@ gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f90ac/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_f90ac.dir/build.make CMakeFiles/cmTC_f90ac.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_0f8c6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0f8c6.dir/build.make CMakeFiles/cmTC_0f8c6.dir/build
 gmake[1]: 进入目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_f90ac.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f90ac.dir/feature_tests.cxx.o -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f90ac
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f90ac.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f90ac.dir/feature_tests.cxx.o  -o cmTC_f90ac 
+Building CXX object CMakeFiles/cmTC_0f8c6.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_0f8c6.dir/feature_tests.cxx.o -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0f8c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f8c6.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0f8c6.dir/feature_tests.cxx.o  -o cmTC_0f8c6 
 gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
 
 
@@ -567,14 +567,14 @@ gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_e2893/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_e2893.dir/build.make CMakeFiles/cmTC_e2893.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_14c95/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_14c95.dir/build.make CMakeFiles/cmTC_14c95.dir/build
 gmake[1]: 进入目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_e2893.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_e2893.dir/feature_tests.cxx.o -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_e2893
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2893.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e2893.dir/feature_tests.cxx.o  -o cmTC_e2893 
+Building CXX object CMakeFiles/cmTC_14c95.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_14c95.dir/feature_tests.cxx.o -c /home/novaguoxun/Test/Log-1.1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_14c95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14c95.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_14c95.dir/feature_tests.cxx.o  -o cmTC_14c95 
 gmake[1]: 离开目录“/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/CMakeTmp”
 
 

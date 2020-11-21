@@ -287,6 +287,7 @@ template<class T,class FromStr = LexicalCast<std::string, T>
 class ConfigVar : public ConfigVarBase {
 public:
     typedef std::shared_ptr<ConfigVar> ptr;
+    typedef std::function<void (const T& old_value,const T& new_value) > on_change_cb;//change_setting
 
     ConfigVar(const std::string& name
             ,const T& default_value
@@ -322,10 +323,39 @@ public:
     }
 
     const T getValue() const { return m_val;}
-    void setValue(const T& v) { m_val = v;}
+     /**
+     * @brief 设置当前参数的值
+     * @details 如果参数的值有发生变化,则通知对应的注册回调函数
+     */
+    void setValue(const T& v) {
+        {
+            if(v == m_val) {
+                return;
+            }
+            for(auto& i : m_cbs) {
+                i.second(m_val, v);//把新的和老的都存储起来
+
+            }
+        }
+        m_val = v;
+    }
     std::string getTypeName()override{return typeid(T).name();}
+    void addListener(uint64_t key,on_change_cb cb){
+        m_cbs[key] = cb;
+    }
+    void delListener(uint64_t key){
+        m_cbs.erase(key);
+    }
+    on_change_cb getListener(uint64_t key){
+        auto it = m_cbs.find(key);
+        return it==m_cbs.end() ? nullptr : it->second;
+    }
+    void clearListener(){
+        m_cbs.clear();
+    }
 private:
     T m_val;
+    std::map<uint64_t,on_change_cb> m_cbs;//a key a fuction
 };
 /**
  * @brief ConfigVar的管理类
@@ -334,6 +364,7 @@ private:
 class Config {
 public:
     typedef std::map<std::string, ConfigVarBase::ptr> ConfigVarMap;
+
     /**
      * @brief 获取/创建对应参数名的配置参数
      * @param[in] name 配置参数名称

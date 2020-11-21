@@ -10,10 +10,9 @@ logs:
       level: debug
       formatter: '%d%T%m%n'
       appenders:
-          - type: FileLogAppender
             file: system.txt
             formatter: '%d%T%c%T[%p]%T%m%n'
-          - type: StdoutLogAppender
+            type: StdoutLogAppender
 system:
       port: 9900
       value: 15
@@ -37,3 +36,34 @@ class:
         name:  guoxun
         age:  99
         sex:  true
+class:
+    person_map:
+            person1: 
+              name: guoxun
+              age: 22
+              sex: true
+            person2:
+              name: guoxun2
+              age: 33
+              sex: false
+            person3:
+              name: guoxun3
+              age: 44
+              sex: true
+    person_map_vec:
+          test1:
+              - name: gg1
+                age: 19
+                sex: true
+              - name: gg2
+                age: 20
+                sex: true
+          test2:
+              - name: gg3
+                age: 21
+                sex: true
+              - name: gg4
+                age: 22
+                sex: true
+
+    

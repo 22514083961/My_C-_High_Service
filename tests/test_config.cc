@@ -116,6 +116,11 @@ public:
            << "]";
         return ss.str();
     }
+    bool operator==(const Person&oth) const {
+        return m_name == oth.m_name 
+            && m_age == oth.m_age
+            && m_sex == oth.m_sex;
+    }
 };
 namespace sylar {
 
@@ -147,11 +152,33 @@ public:
 };
 }
 sylar::ConfigVar<Person>::ptr g_person= sylar::Config::Lookup("class.person",Person(),"class.person1111");
+sylar::ConfigVar<std::map<std::string,Person>>::ptr g_person_map = 
+            sylar::Config::Lookup("class.person_map",std::map<std::string,Person>(),"class.person");
+sylar::ConfigVar<std::map<std::string,std::vector<Person>>>::ptr g_person_map_vec = 
+            sylar::Config::Lookup("class.person_map_vec",std::map<std::string,std::vector<Person> >(),"test");
 void test_MyClass(){
      SYLAR_LOG_INFO(SYLAR_LOG_ROOT()) << "before1: " << g_person->getValue().toString() << " - " << g_person->toString();
+
+
+     #define XX_PM(g_person_Value,prefix) \
+     { \
+        auto &myValue=g_person_Value->getValue(); \
+        for(auto &i:myValue){ \
+            SYLAR_LOG_INFO(SYLAR_LOG_ROOT())<< #prefix <<":"<<i.first<<"-"<<i.second.toString(); \
+        }\
+        SYLAR_LOG_INFO(SYLAR_LOG_ROOT())<< #prefix<<"  map.size="<<myValue.size();\
+     }
+    XX_PM(g_person_map,before);
+    SYLAR_LOG_INFO(SYLAR_LOG_ROOT())<<"before: \n"<<g_person_map_vec->toString();
+    g_person->addListener(10,[](const Person& old_value,const Person &new_value){
+        SYLAR_LOG_INFO(SYLAR_LOG_ROOT())<<"********************\nold_value= "<<old_value.toString()<<
+        "new_value="<<new_value.toString();
+    });
      YAML::Node root = YAML::LoadFile("./conf/log.yml");
      sylar::Config::LoadFromYaml(root);   
      SYLAR_LOG_INFO(SYLAR_LOG_ROOT()) << "after1: " << g_person->getValue().toString() << " - " << g_person->toString();
+     XX_PM(g_person_map,after);
+     SYLAR_LOG_INFO(SYLAR_LOG_ROOT())<<"after: \n"<<g_person_map_vec->toString();
 }
 int main(int argc, char** argv) {
     //test_yaml();
