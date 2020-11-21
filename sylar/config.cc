@@ -47,13 +47,15 @@ void Config::LoadFromYaml(const YAML::Node& root) {
         std::string key = i.first;
         //cou<<""
         if(key.empty()) {
+            
             continue;
         }
         std::transform(key.begin(), key.end(), key.begin(), ::tolower);
         ConfigVarBase::ptr var = LookupBase(key);
         if(var) {
-            //SYLAR_LOG_INFO(SYLAR_LOG_ROOT()) << "var not is NULL Enter this";
+            SYLAR_LOG_INFO(SYLAR_LOG_ROOT()) << key<<"in the config";
             if(i.second.IsScalar()) {
+                SYLAR_LOG_ERROR(SYLAR_LOG_ROOT()) << "ss.ctr="<<i.second.Scalar();
                 var->fromString(i.second.Scalar());
             } else {
                // SYLAR_LOG_ERROR(SYLAR_LOG_ROOT()) << "var is NULL Enter this";
@@ -62,6 +64,8 @@ void Config::LoadFromYaml(const YAML::Node& root) {
                 SYLAR_LOG_ERROR(SYLAR_LOG_ROOT()) << "ss.ctr="<<ss.str();
                 var->fromString(ss.str());
             }
+        }else{
+            SYLAR_LOG_INFO(SYLAR_LOG_ROOT()) << key<<" not in the config";
         }
     }
 }

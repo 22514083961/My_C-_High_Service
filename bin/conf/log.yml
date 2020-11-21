@@ -32,3 +32,8 @@ system:
         test2umap4: 40 
         test1umap5: 50
         test2umap6: 60 
+class:
+    person:
+        name:  guoxun
+        age:  99
+        sex:  true
