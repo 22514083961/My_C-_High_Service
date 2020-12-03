@@ -29,8 +29,30 @@ util.h
 .././sylar/util.h
 singleton.h
 .././sylar/singleton.h
+thread.h
+.././sylar/thread.h
+iostream
+-
 
 .././sylar/singleton.h
+
+.././sylar/thread.h
+thread
+-
+functional
+-
+memory
+-
+pthread.h
+-
+semaphore.h
+-
+stdint.h
+-
+atomic
+-
+string
+-
 
 .././sylar/util.h
 pthread.h
@@ -44,6 +66,10 @@ sys/syscall.h
 stdio.h
 -
 stdint.h
+-
+vector
+-
+string
 -
 
 /home/novaguoxun/Test/Log-1.1/tests/test.cc

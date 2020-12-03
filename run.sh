@@ -8,5 +8,5 @@ cd build/
 make 
 cd ..
 cd bin/
-./test_config
+./test_thread
 

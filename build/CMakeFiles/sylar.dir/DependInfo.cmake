@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/novaguoxun/Test/Log-1.1/sylar/config.cc" "/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/sylar.dir/sylar/config.cc.o"
   "/home/novaguoxun/Test/Log-1.1/sylar/log.cc" "/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/sylar.dir/sylar/log.cc.o"
+  "/home/novaguoxun/Test/Log-1.1/sylar/thread.cc" "/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/sylar.dir/sylar/thread.cc.o"
   "/home/novaguoxun/Test/Log-1.1/sylar/util.cc" "/home/novaguoxun/Test/Log-1.1/build/CMakeFiles/sylar.dir/sylar/util.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

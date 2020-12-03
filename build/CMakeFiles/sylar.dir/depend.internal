@@ -5,15 +5,25 @@ CMakeFiles/sylar.dir/sylar/config.cc.o
  .././sylar/config.h
  .././sylar/log.h
  .././sylar/singleton.h
+ .././sylar/thread.h
  .././sylar/util.h
  /home/novaguoxun/Test/Log-1.1/sylar/config.cc
 CMakeFiles/sylar.dir/sylar/log.cc.o
- .././sylar/log.h
  /home/novaguoxun/Test/Log-1.1/sylar/config.h
  /home/novaguoxun/Test/Log-1.1/sylar/log.cc
  /home/novaguoxun/Test/Log-1.1/sylar/log.h
  /home/novaguoxun/Test/Log-1.1/sylar/singleton.h
+ /home/novaguoxun/Test/Log-1.1/sylar/thread.h
+ /home/novaguoxun/Test/Log-1.1/sylar/util.h
+CMakeFiles/sylar.dir/sylar/thread.cc.o
+ /home/novaguoxun/Test/Log-1.1/sylar/log.h
+ /home/novaguoxun/Test/Log-1.1/sylar/singleton.h
+ /home/novaguoxun/Test/Log-1.1/sylar/thread.cc
+ /home/novaguoxun/Test/Log-1.1/sylar/thread.h
  /home/novaguoxun/Test/Log-1.1/sylar/util.h
 CMakeFiles/sylar.dir/sylar/util.cc.o
+ /home/novaguoxun/Test/Log-1.1/sylar/log.h
+ /home/novaguoxun/Test/Log-1.1/sylar/singleton.h
+ /home/novaguoxun/Test/Log-1.1/sylar/thread.h
  /home/novaguoxun/Test/Log-1.1/sylar/util.cc
  /home/novaguoxun/Test/Log-1.1/sylar/util.h

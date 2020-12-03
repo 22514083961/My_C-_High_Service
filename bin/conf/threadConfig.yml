@@ -1,0 +1,19 @@
+logs:
+    - name: root
+      level: info
+      formatter: '%d%T[%p]%T%T%m%n%T'
+      appenders:
+          - type: FileLogAppender
+            file: root.txt
+          - type: StdoutLogAppender
+    - name: system2
+      level: debug
+      formatter: '%d%T[%p]%T%T%m%n'
+      appenders:
+          - type: FileLogAppender
+            formatter: '%d%T[%p]%T[%c]%T%m%n'
+            file: Threadsystem.txt
+            level: WARN
+          - type: StdoutLogAppender
+            level: INFO
+            formatter: '%d%T[%p]%T[%c]%T%m%n'

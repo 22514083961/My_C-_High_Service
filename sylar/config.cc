@@ -3,6 +3,7 @@
 namespace sylar {
 
 ConfigVarBase::ptr Config::LookupBase(const std::string& name) {
+    RWMutexType::ReadLock lock(GetMutex());
     auto it = GetDatas().find(name);
     return it == GetDatas().end() ? nullptr : it->second;
 }
@@ -47,12 +48,24 @@ void Config::LoadFromYaml(const YAML::Node& root) {
             if(i.second.IsScalar()) {
                 var->fromString(i.second.Scalar());
             } else {
+                RWMutex::WriteLock lock(GetMutex());
                 std::stringstream ss;
                 ss << i.second;
                 var->fromString(ss.str());
             }
         }
     }
+}
+
+void Config::Visit(std::function<void(ConfigVarBase::ptr)> cb) {
+    RWMutexType::ReadLock lock(GetMutex());
+    ConfigVarMap& m = GetDatas();
+    SYLAR_LOG_INFO(SYLAR_LOG_ROOT())<<"map size ="<<m.size();
+    for(auto it = m.begin();
+            it != m.end(); ++it) {
+        cb(it->second);
+    }
+
 }
 
 }

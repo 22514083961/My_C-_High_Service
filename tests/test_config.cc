@@ -151,6 +151,14 @@ public:
     }
 };
 }
+#define XX(g_var,name,prefix)\
+   {\
+        auto &v=g_var->getValue();\
+        for(auto &i : v){ \
+            SYLAR_LOG_INFO(SYLAR_LOG_ROOT()) << #prefix " " #name ":"<<i;\
+        }\
+        SYLAR_LOG_INFO(SYLAR_LOG_ROOT()) << #prefix " " #name " yaml\n"<< g_var->toString();\
+     }
 sylar::ConfigVar<Person>::ptr g_person= sylar::Config::Lookup("class.person",Person(),"class.person1111");
 sylar::ConfigVar<std::map<std::string,Person>>::ptr g_person_map = 
             sylar::Config::Lookup("class.person_map",std::map<std::string,Person>(),"class.person");
@@ -170,7 +178,7 @@ void test_MyClass(){
      }
     XX_PM(g_person_map,before);
     SYLAR_LOG_INFO(SYLAR_LOG_ROOT())<<"before: \n"<<g_person_map_vec->toString();
-    g_person->addListener(10,[](const Person& old_value,const Person &new_value){
+    g_person->addListener([](const Person& old_value,const Person &new_value){
         SYLAR_LOG_INFO(SYLAR_LOG_ROOT())<<"********************\nold_value= "<<old_value.toString()<<
         "new_value="<<new_value.toString();
     });
@@ -180,9 +188,31 @@ void test_MyClass(){
      XX_PM(g_person_map,after);
      SYLAR_LOG_INFO(SYLAR_LOG_ROOT())<<"after: \n"<<g_person_map_vec->toString();
 }
+void test_MyLog(){
+    std::cout<<"********************BEFORE********************\n";
+    auto my_log=SYLAR_LOG_NAME("system");
+    SYLAR_LOG_INFO(my_log)<<"Test Log before"; 
+    std::cout<< sylar::LoggerMgr::GetInstance()->toYamlString() <<std::endl;
+    YAML::Node root = YAML::LoadFile("./conf/test.yml");
+    sylar::Config::LoadFromYaml(root);
+
+    std::cout << "********************END***************************\n";
+    std::cout << sylar::LoggerMgr::GetInstance()->toYamlString()<<std::endl;
+    SYLAR_LOG_ERROR(my_log)<<"hello guo xun";
+    my_log->setFormatter("%d%T---%m%n");
+    SYLAR_LOG_ERROR(my_log)<<"hello guo xun";
+    std::cout << "********************root***************************\n";
+    std::cout<<root<<std::endl;
+}
 int main(int argc, char** argv) {
     //test_yaml();
     //test_config();  
-    test_MyClass();
+    //test_MyClass();
+    test_MyLog();
+    sylar::Config::Visit([](sylar::ConfigVarBase::ptr var){
+    SYLAR_LOG_INFO(SYLAR_LOG_ROOT()) <<"name="<<var->getName()<<"  description"<<
+    var->getDescription()<<"typename="<<var->getTypeName()<<
+    " value=" << var->toString();
+    });
     return 0;
 }

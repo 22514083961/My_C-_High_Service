@@ -1,3 +1,14 @@
-2020-11-14 21:13:07	ERROR	test macro error
-2020-11-14 21:13:07	ERROR	test macro fmt error aa
-2020-11-14 21:13:07	ERROR	guoxunlog
+2020-11-24 20:15:51	[ERROR]		hello guo xun
+2020-11-24 20:15:51	hava add logger in mgr 
+	2020-11-24 20:16:08	ERROR	test macro error
+2020-11-24 20:16:08	ERROR	test macro fmt error aa
+2020-11-24 21:19:42	[ERROR]		hello guo xun
+2020-11-24 21:19:42	hava add logger in mgr 
+	2020-11-24 22:13:40	[ERROR]		hello guo xun
+2020-11-24 22:13:40	hava add logger in mgr 
+	2020-11-24 22:57:47	ERROR	test macro error
+2020-11-24 22:57:47	ERROR	test macro fmt error aa
+2020-11-24 23:02:11	ERROR	test macro error
+2020-11-24 23:02:11	ERROR	test macro fmt error aa
+2020-11-24 23:05:25	ERROR	test macro error
+2020-11-24 23:05:25	ERROR	test macro fmt error aa
